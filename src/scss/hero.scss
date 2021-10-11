@@ -1,10 +1,9 @@
 .hero{
     min-height:100vh;
     background-image: var(--gradient-soft);
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    color: #FFFFFF;
 }
 
 
@@ -22,9 +21,27 @@
     margin-bottom: 16px;
 }
 
+.lang{
+    display: flex;
+}
+
+.lang__input{
+    -webkit-appearance: none;
+    position: absolute;
+
+    &:checked ~ .lang--txt{
+        background-color: var(--color-accent);
+    }
+
+}
+
 .lang--txt{
     font-size: 1.2rem;
     line-height: 1.16;
+    font-weight: 700;
+    display: block;
+    padding: 5px 6px;
+    border-radius: 8px;
 }
 
 
@@ -42,6 +59,33 @@
     font-size: 1.6rem;
     line-height: 1.18;
     font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap:5px;
+
+    &::before{
+        content: '';
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50px;
+        background-color: var(--color-separator);
+    }
+}
+
+.header__fb-link{
+    display: inline-flex;
+    align-items: center;
+    gap:14px;
+
+    &::before{
+        content: '';
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50px;
+        background-color: var(--color-separator);
+    }
 }
 
 .header__content-text{
@@ -50,22 +94,30 @@
     font-weight: 400;
 }
 
+
 .hero__content{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     flex-grow: 1;
     background-image:linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%),url('../img/symbolLogo.svg'), url('../img/bg.svg');
     background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    bottom: 0;
+    background-position: bottom;
+    background-size: 100% 200px, auto, auto;
 }
 
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .hero__content-title{
     @include text-title;
     text-align: center;
 }
+
+.hero__content-link{
+    text-align: center;
+}
+
 
 

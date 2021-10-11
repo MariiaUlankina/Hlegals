@@ -30,15 +30,15 @@
                         <div class="header__content-row">
                             <div class="lang">
                                 <label class="lang__label">
-                                    <input type="radio" value="UA" class="lang__input">
+                                    <input type="radio" value="UA" class="lang__input" name="lang">
                                     <span class="lang--txt">УК</span>
                                 </label>
                                 <label class="lang__label">
-                                    <input type="radio" value="RU" class="lang__input">
+                                    <input type="radio" value="RU" class="lang__input" name="lang">
                                     <span class="lang--txt">РУ</span>
                                 </label>
                                 <label class="lang__label">
-                                    <input type="radio" value="EN" class="lang__input">
+                                    <input type="radio" value="EN" class="lang__input" name="lang">
                                     <span class="lang--txt">EN</span>
                                 </label>
                             </div>
@@ -46,8 +46,9 @@
                                 Одеса, Адміральський пр., 3
                             </p>
 
-                            <a href="tel:+380503901591" class="header_tel-link">+38 (050) 390 15 91</a>
 
+                            <a href="tel:+380503901591" class="header_tel-link">+38 (050) 390 15 91</a>
+            
                             <a href="" class="header__fb-link">
                                 <img src="img/facebook.svg" alt="" class="header__fb">
                             </a>
@@ -90,7 +91,7 @@
             <!--START HERO-CONTENT-->
 
             <div class="hero__content">
-                <div class="container">
+                    <div class="container hero__container">
                     <h1 class="hero__content-title">системний адміністратор правових рішень</h1>
                     <a href="" class="hero__content-link">
                         <img src="img/scroll.svg" alt="" class="hero__content-image">
@@ -103,15 +104,16 @@
         <!--END HERO-->
 
         <!--START QUALITY-->
-
+        <div class="gradient">
         <section class="quality">
-            <div class="container">
+            <div class="container container__quality">
                 <div class="quality__row">
                     <h3 class="quality__title">Послідовні</h3>
                     <h3 class="quality__title">Клієнтоорієнтовані</h3>
                     <h3 class="quality__title">Інноваційні</h3>
                     <h3 class="quality__title">Бізнес-орієнтовані юристи</h3>
                 </div>
+               <div class="quality-nav"></div>
                 <div class="quality__content">
                     <h4 class="quuality__content-title">
                         Перевертаємо уявлення про юридичні послуги
@@ -133,7 +135,7 @@
         <section class="services">
             <div class="container">
                 <a href="" class="services__link">послуги</a>
-                <h2 class="services__title">Що ми вміємо робити краще за інших?</h2>
+                <h2 class="services__title title">Що ми вміємо робити краще за інших?</h2>
                 <div class="services__cards">
                     <ul class="services__list">
                         <li class="services__item">
@@ -193,22 +195,35 @@
             </div>
         </section>
         <!--END SERVICES-->
-
+    </div>
 
 
         <!--START TEAM-->
         <section class="team">
-            <div class="container">
+            <div class="container team_container">
                 <img src="img/man.jpg" alt="" class="team__image">
                 <div class="team__content">
-                    <a href="" class="team__link">команда</a>
-                    <h2 class="team__title">
+                    <a href="" class="team__link head__link">команда</a>
+                    <h2 class="team__title  title">
                         Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у
                         ситуаціях, коли більшість безсилі.
                     </h2>
                     <p class="team__title-name">Олександр Олександровський</p>
                     <p class="team__title-profession">Керуючий партнер</p>
                 </div>
+            </div>
+            <div class="team__nav">
+                <ul class="team__list">
+                    <li class="team__item">
+
+                    </li>
+                    <li class="team__item team__item--noactive">
+
+                    </li>
+                    <li class="team__item team__item--noactive">
+
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -221,49 +236,49 @@
                 <h3 class="cases__title">Успішні кейси</h3>
                 <ul class="cases__list">
                     <li class="cases__item">
-                        <p class="cases__content">
+                        <h4 class="cases__content">
                             Супровід проекту з купівлі-продажу сільськогосподарської продукції
-                        </p>
+                        </h4>
                         <p class="cases__company">
                             Hillel IT School
                         </p>
                     </li>
                     <li class="cases__item">
-                        <p class="cases__content">
+                        <h4 class="cases__content">
                             Підготовка комплексного юридичного висновку для європейського банку
-                        </p>
+                        </h4>
                         <p class="cases__company">
                             WannaBiz
                         </p>
                     </li>
                     <li class="cases__item">
-                        <p class="cases__content">
+                        <h4 class="cases__content">
                             Супровід проекту з купівлі-продажу сільськогосподарської продукції
-                        </p>
+                        </h4>
                         <p class="cases__company">
                             tapgerine
                         </p>
                     </li>
                     <li class="cases__item">
-                        <p class="cases__content">
+                        <h4 class="cases__content">
                             Представництво інтересів великого зернотрейдера в податковому спорі
-                        </p>
+                        </h4>
                         <p class="cases__company">
                             3D LOOK
                         </p>
                     </li>
                     <li class="cases__item">
-                        <p class="cases__content">
+                        <h4 class="cases__content">
                             Оскарження податкових повідомлень-рішень ДФС
-                        </p>
+                        </h4>
                         <p class="cases__company">
                             adtelligent
                         </p>
                     </li>
                     <li class="cases__item">
-                        <p class="cases__content">
+                        <h4 class="cases__content">
                             Супровід проекту з кредитування агротрейдерів мальтійським банком
-                        </p>
+                        </h4>
                         <p class="cases__company">
                             Clikky
                         </p>
@@ -301,11 +316,11 @@
 
         <section class="publications">
             <div class="container">
-                <a href="" class="publications__link">Публікації</a>
-                <h2 class="publications__title">Нам э що розказати</h2>
+                <a href="" class="publications__link head__link">Публікації</a>
+                <h2 class="publications__title title">Нам э що розказати</h2>
                 <ul class="publications__list">
                     <li class="publications__item">
-                        <h3 class="publications__title">Валютний контроль помер, хай живе валютний контроль!</h3>
+                        <h3 class="publications__item-title">Валютний контроль помер, хай живе валютний контроль!</h3>
                         <h4 class="publications__date">14 червня</h4>
                         <p class="publications__content">
                             Експерти проводять конференції, круглі столи та іншого штибу заходи на тему «лібералізація
@@ -315,11 +330,43 @@
                     </li>
                     <li class="publications__item">
                         <img src="img/conference.jpg" alt="" class="publication__image">
-                        <h3 class="publications__title">Equity associate</h3>
+                        <h3 class="publications__item-title">Equity associate</h3>
                         <h4 class="publications__date">22 квітня</h4>
                         <p class="publications__content">
                             На проектах я джун. При цьому я співвласник юридичної фірми. Як це відбулося. Перед вступом
                             батьки мені казали, що якщо буду…
+                        </p>
+                    </li>
+                    <li class="publications__item">
+                        <img src="img/gdpr.jpg" alt="" class="publication__image">
+                        <h3 class="publications__item-title">Штраф для «Корпорації добра»: що буде з Google та іншими за порушення GDPR</h3>
+                        <h4 class="publications__date">29 вересня</h4>
+                        <p class="publications__content">
+                            І чому стягнення у 50 млн євро може стати доленосним прецедентом За матеріалами Mind.ua 21 січня Національна комісія із захисту даних.
+                        </p>
+                    </li>
+                    <li class="publications__item">
+                        <img src="img/people.jpg" alt="" class="publication__image">
+                        <h3 class="publications__item-title">Заповіт міленіала</h3>
+                        <h4 class="publications__date">19 серпня</h4>
+                        <p class="publications__content">
+                            Що і як передаватимуть у спадщину сучасні влогери, опініон лідери і криптомільйонери Типовий спадок українського покоління Х виглядає так: квартира у…
+                        </p>
+                    </li>
+                    <li class="publications__item">
+                        <img src="img/monument.jpg" alt="" class="publication__image">
+                        <h3 class="publications__item-title">Закон про мови: як зробити свій сайт відповідним</h3>
+                        <h4 class="publications__date">19 серпня</h4>
+                        <p class="publications__content">
+                            Наталія Кирик, керівник контент студії Wordfactory.ua По-перше, це красиво! Це аргумент номер один на користь україномовного сайту. По-друге, це ефективно. У…
+                        </p>
+                    </li>
+                    <li class="publications__item">
+                        <img src="img/boy.jpg" alt="" class="publication__image">
+                        <h3 class="publications__item-title">Компенсація витрат на навчання дитини в дитячому садку та школі</h3>
+                        <h4 class="publications__date">5 Лютого 2018</h4>
+                        <p class="publications__content">
+                            Про що йде мова В червні цього року Верховна Рада внесла зміни до Податкового кодексу України. Відтепер батьки, які отримують офіційну…
                         </p>
                     </li>
                 </ul>

@@ -1,0 +1,59 @@
+.team{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.team_container{
+    display: flex;
+    justify-content: flex-start;
+    gap:40px;
+    background-color: var(--color-bg);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.team__image{
+    width: 413px;
+}
+
+
+.team__content{
+    padding-top: 40px;
+}
+
+.team__title{
+    margin-bottom: 20px;
+}
+
+.team__title-name{
+    @include text-caption;
+    color: var(--color-text);
+    margin-bottom: 5px;
+}
+
+.team__title-profession{
+    font-size: 1.6rem;
+    line-height: 1.37;
+    color: var(--color-text) ;
+}
+
+
+.team__list{
+    display: flex;
+    justify-content: center;
+    gap:14px;
+
+}
+
+.team__item{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: var(--color-active-regular);
+}
+
+.team__item--noactive{
+    opacity: 0.2;
+}

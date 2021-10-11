@@ -1,0 +1,22 @@
+.cards{
+    padding-top: 30px;
+}
+
+.cards__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.cards__image{
+    width: 100%;
+}
+
+
+.cards__title{
+    @include text-small;
+    font-weight: 700;
+    color: var(--color-main);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}

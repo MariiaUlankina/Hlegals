@@ -1,0 +1,12 @@
+
+.cases__content{
+    @include text-subheader;
+    color: var(--color-main-soft);
+    margin-bottom: 20px;
+}
+
+.cases__company{
+    @include text-body;
+    color:var(--color-text);
+}
+

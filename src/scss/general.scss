@@ -20,11 +20,31 @@ html{
     --gradient-soft:linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
     --gradient-red:linear-gradient(121.42deg, #F0145A 30.65%, #693264 107.33%);
     --gradient-supersoft:linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-    --gradint-redtext:linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    --gradient-redtext:linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
 }
 
 .container{
     width: 1320px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.title{
+    @include text-head;
+    font-weight: 700;
+    background: var(--gradient-redtext);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.head__link{
+    @include text-small;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-active-regular);
+    margin-bottom: 3px;
+}
+
+.gradient{
+    background-image: var(--gradient-supersoft);
 }
