@@ -1,3 +1,51 @@
+.cases__container{
+    display: grid;
+    grid-template: 57px 198px 198px / 320px 113px 340px 114px 433px;
+    background-color: var(--color-bg);
+    border-radius: 12px;
+    align-items: end;
+}
+
+.cases__title{
+    color: var(--color-accent);
+    @include text-small;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px 20px;
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.cases__row-first{
+    grid-area: 2 / 1 / 3 / 3;
+    padding: 20px 20px;
+}
+
+.cases__row-second{
+    grid-area: 1 / 3 / 3 / 5; 
+    padding: 20px 20px;
+}
+
+.cases__row-third{
+    grid-area: 1 / 5 / 3 / 6;
+    padding: 20px 20px;
+}
+
+
+.cases__row-fourth{
+    grid-area: 3 / 1 / 4 / 2;
+    padding: 20px 20px;
+}
+
+.cases__row-fifth{
+    grid-area: 3 / 2 / 4 / 4;
+    padding: 20px 20px;
+}
+
+.cases__row-sixth{
+    grid-area: 3 / 4 / 4 / 6;
+    padding: 20px 20px;
+}
 
 .cases__content{
     @include text-subheader;

@@ -46,14 +46,15 @@
 
 }
 
-.team__item{
+.team__navigation{
     display: block;
     width: 16px;
     height: 16px;
     border-radius: 50px;
     background-color: var(--color-active-regular);
-}
-
-.team__item--noactive{
     opacity: 0.2;
+
+    &:active{
+        opacity: 1;
+    }
 }
