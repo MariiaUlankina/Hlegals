@@ -1,8 +1,10 @@
 .services{
     padding-bottom: 80px;
-    // box-shadow: 0 10px 0 -20px #CACADB, 0 20px 0 -40px #E7E7F2;
-    //box-shadow: 0 10px 0  red, 0 20px 0 blue;
-    border-radius: 0 0 12px 12px;
+    position: relative;
+
+
+// box-shadow: 0 10px 0 -20px #CACADB, 0 20px 0 -40px #E7E7F2;
+
 
     &::before{
         content: '';
@@ -10,6 +12,8 @@
         height: 10px;
         background-color: #CACADB;
         border-radius: 0 0 12px 12px;
+        position: absolute;
+        bottom: -10px;
     }
 
 }
