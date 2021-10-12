@@ -22,6 +22,19 @@
     padding-top: 40px;
 }
 
+.team__link{
+    display: inline-flex;
+    align-items: center;
+    gap:5px;
+    
+    &::after{
+        content: '';
+        width: 12px;
+        height: 12px;
+        background-image: url(../img/arrowactive.svg);
+    }
+}
+
 .team__title{
     margin-bottom: 20px;
 }
