@@ -385,12 +385,16 @@ html {
   position: relative; }
   .gradient::before {
     content: '';
-    width: 100%;
+    display: block;
+    width: 96%;
     height: 10px;
     background-color: #E7E7F2;
     border-radius: 0 0 12px 12px;
     position: absolute;
-    bottom: -20px; }
+    bottom: -25px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 .hero {
   min-height: 100vh;
@@ -635,12 +639,16 @@ html {
   position: relative; }
   .services::before {
     content: '';
-    width: 100%;
+    display: block;
+    width: 98%;
     height: 10px;
     background-color: #CACADB;
     border-radius: 0 0 12px 12px;
     position: absolute;
-    bottom: -10px; }
+    bottom: -15px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 .services__link {
   font-size: 1.4rem;

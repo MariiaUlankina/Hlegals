@@ -4,12 +4,16 @@
 
     &::before{
         content: '';
-        width: 100%;
+        display: block;
+        width: 98%;
         height: 10px;
         background-color: #CACADB;
         border-radius: 0 0 12px 12px;
         position: absolute;
-        bottom: -10px;
+        bottom: -15px;
+        right:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
     }
 }
 
