@@ -1,3 +1,24 @@
+@mixin media-tablet {
+    @media(max-width: 1320px){
+        @content;
+    }
+    
+}
+
+@mixin media-tablet-sm {
+    @media(max-width: 1200px){
+        @content;
+    }
+    
+}
+
+@mixin media-phone {
+    @media(max-width: 767px){
+        @content;
+    }
+    
+}
+
 @mixin text-head {
     font-size: 4.2rem ;
     line-height: (50 / 42);
