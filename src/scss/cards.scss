@@ -5,6 +5,14 @@
 .cards__content{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+
+    @include media-tablet-sm{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    @include media-phone{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 .cards__image{
