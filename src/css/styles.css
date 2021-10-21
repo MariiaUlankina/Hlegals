@@ -639,7 +639,7 @@ html {
 
 .cards__content {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template: repeat(3, 120px)/repeat(4, 360px); }
   @media (max-width: 1200px) {
     .cards__content {
       grid-template-columns: repeat(3, 1fr); } }
@@ -658,6 +658,42 @@ html {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px; }
+
+.cards__image-hillel {
+  background-color: #1C4280; }
+
+.cards__image-wannabiz {
+  background-color: #143646; }
+
+.cards__image-tapgerine {
+  background-color: #F48B30; }
+
+.cards__image-3dlook {
+  background-color: #9E4DC3; }
+
+.cards__image-orangear {
+  background-color: #FD9339; }
+
+.cards__image-adteligent {
+  background-color: #E2E2E4; }
+
+.cards__image-clikk {
+  background-color: #C71C36; }
+
+.cards__image-ecoleasing {
+  background-color: #DCF3F9; }
+
+.cards__image-infratek {
+  background-color: #EAEAEA; }
+
+.cards__image-citypark {
+  background-color: #282240; }
+
+.cards__image-artprint {
+  background-color: #1D4568; }
+
+.cards__image-ultimare {
+  background-color: #000000; }
 
 .quality {
   padding-top: 80px;
