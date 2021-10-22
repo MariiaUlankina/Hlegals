@@ -4,8 +4,7 @@
 
 .cards__content{
     display: grid;
-    grid-template: repeat(3,120px) / repeat(4,360px);
-
+    grid-template: repeat(3,120px) / repeat(4,1fr);
 
 
     @include media-tablet-sm{
@@ -18,7 +17,7 @@
 }
 
 .cards__image{
-    width: 100%;
+    width: 50%;
 }
 
 
@@ -33,49 +32,85 @@
 
 .cards__image-hillel{
     background-color: #1C4280;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards__image-wannabiz{
     background-color: #143646;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards__image-tapgerine{
     background-color: #F48B30;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards__image-3dlook{
     background-color: #9E4DC3;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards__image-orangear{
     background-color: #FD9339;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards__image-adteligent{
     background-color: #E2E2E4;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
-.cards__image-clikk{
+.cards__image-clikky{
     background-color: #C71C36;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards__image-ecoleasing{
     background-color: #DCF3F9;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards__image-infratek{
     background-color: #EAEAEA;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 
 .cards__image-citypark{
     background-color:  #282240;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards__image-artprint{
     background-color: #1D4568;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .cards__image-ultimare{
     background-color: #000000;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }

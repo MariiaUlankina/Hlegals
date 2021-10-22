@@ -41,6 +41,10 @@ html{
         width: 95%;
     }
 
+    @include media-phone{
+        width: 100%;
+    }
+
 }
 
 .title{
