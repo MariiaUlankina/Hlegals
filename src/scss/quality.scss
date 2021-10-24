@@ -5,21 +5,14 @@
 
 .container__quality{
     display: grid;
-    grid-template-columns: 1fr 4px 1fr;
+    grid-template-columns: 1fr 1fr;
     gap:40px;
-}
-
-.quality-nav{
-    width: 4px;
-    height: 310px;
-    background-color: var(--color-separator);
 }
 
 .quality__row{
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    gap:20px;
 }
 
 
@@ -27,6 +20,16 @@
     @include text-head;
     font-weight: 700;
     color: var(--color-text);
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border-right: 4px solid var(--color-separator);
+    
+    &:hover{
+        background: var(--gradient-redtext);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-right-color: var(--color-accent);
+    }
 }
 
 .quality__content{
