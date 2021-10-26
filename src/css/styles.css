@@ -857,6 +857,28 @@ html {
       font-size: 1.8rem;
       line-height: 1.44; } }
 
+.quality__navigation {
+  display: none; }
+  @media (max-width: 767px) {
+    .quality__navigation {
+      display: block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50px;
+      margin-top: 20px;
+      background-color: var(--color-active-regular);
+      opacity: 0.2; }
+      .quality__navigation:active {
+        opacity: 1; } }
+
+.quality__list {
+  display: none; }
+  @media (max-width: 767px) {
+    .quality__list {
+      display: flex;
+      justify-content: center;
+      gap: 14px; } }
+
 .services {
   padding-bottom: 80px;
   position: relative; }

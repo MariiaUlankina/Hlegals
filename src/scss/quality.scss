@@ -101,3 +101,37 @@
         line-height: 1.44;
     }
 }
+
+.quality__navigation{
+
+    display: none;
+
+
+    @include media-phone{
+        display: block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50px;
+        margin-top: 20px;
+        background-color: var(--color-active-regular);
+        opacity: 0.2;
+
+        &:active{
+            opacity: 1;
+        } 
+    }
+    
+}
+
+.quality__list{
+    display: none;
+
+    @include media-phone{
+        display: flex;
+        justify-content: center;
+        gap:14px;
+    }
+
+    
+
+}
