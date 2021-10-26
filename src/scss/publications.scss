@@ -24,6 +24,8 @@
     @include media-phone{
         background-image: none;
         position: unset;
+
+
     }
 }
 
@@ -56,6 +58,7 @@
         grid-template-columns:335px;
         grid-template-rows: 106px repeat(2,273px) ;
         justify-content: center;
+        gap:20px;
     }
 }
 
