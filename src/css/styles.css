@@ -950,6 +950,9 @@ html {
   height: 900px;
   overflow: hidden;
   position: relative; }
+  @media (max-width: 767px) {
+    .publications {
+      height: 100%; } }
 
 .publications__nav {
   width: 100%;
@@ -960,6 +963,10 @@ html {
   background-size: 100% 200px;
   position: absolute;
   bottom: 0; }
+  @media (max-width: 767px) {
+    .publications__nav {
+      background-image: none;
+      position: unset; } }
 
 .publications__button {
   font-size: 1.4rem;
@@ -983,6 +990,11 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px; }
+  @media (max-width: 767px) {
+    .publications__list {
+      grid-template-columns: 335px;
+      grid-template-rows: 106px repeat(2, 273px);
+      justify-content: center; } }
 
 .publication__image {
   width: 100%;
@@ -1008,16 +1020,29 @@ html {
     margin-top: 20px;
     border: 4px solid var(--color-separator);
     margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    .publications__date::after {
+      visibility: hidden; } }
 
 .publications__item {
   background-color: #FFFFFF;
   border-radius: 8px; }
+  @media (max-width: 767px) {
+    .publications__item:nth-child(3) {
+      display: none; }
+    .publications__item:nth-child(5) {
+      display: none; }
+    .publications__item:nth-child(6) {
+      display: none; } }
 
 .publications__content {
   font-size: 1.6rem;
   line-height: 1.37;
   color: #000000;
   margin: 0 20px 20px; }
+  @media (max-width: 767px) {
+    .publications__content {
+      visibility: hidden; } }
 
 .publications__link {
   display: inline-flex;
