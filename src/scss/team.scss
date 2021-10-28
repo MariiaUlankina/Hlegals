@@ -11,10 +11,22 @@
     background-color: var(--color-bg);
     border-radius: 12px;
     margin-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 .team__image{
     width: 413px;
+
+    @include media-tablet-sm{
+        width: 373px;
+    }
+
+    @include media-phone{
+        width: 60px;
+        border-radius: 120px;
+        position: absolute;
+    }
 }
 
 
@@ -37,6 +49,11 @@
 
 .team__title{
     margin-bottom: 20px;
+
+    @include media-tablet-sm{
+        font-size: 3.4rem;
+        line-height: 1.18;
+    }
 }
 
 .team__title-name{

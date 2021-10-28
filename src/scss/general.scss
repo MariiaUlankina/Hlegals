@@ -42,7 +42,7 @@ html{
     }
 
     @include media-phone{
-        width: 100%;
+        width: 95%;
     }
 
 }
@@ -85,5 +85,11 @@ html{
         right:50%;
         left:50%;
         transform:translate(-50%, -50%);
+    }
+
+    @include media-phone{
+        &::before{
+            width: 92%;
+        }
     }
 }
