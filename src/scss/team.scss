@@ -11,27 +11,40 @@
     background-color: var(--color-bg);
     border-radius: 12px;
     margin-bottom: 20px;
-    padding-left: 20px;
-    padding-bottom: 30px;
+
+    @include media-phone{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        position: relative;
+    }
+   
 }
 
 .team__image{
     width: 413px;
 
     @include media-tablet-sm{
-        width: 373px;
+       width: 373px;
     }
 
     @include media-phone{
         width: 60px;
+        height: 60px;
         border-radius: 120px;
+        order: 2;
         position: absolute;
+        bottom: 25px;
     }
 }
 
 
 .team__content{
     padding-top: 40px;
+
+    @include media-phone{
+        order: 1;
+    }
 }
 
 .team__link{
@@ -53,6 +66,7 @@
     @include media-tablet-sm{
         font-size: 3.4rem;
         line-height: 1.18;
+        margin-bottom: 15px;
     }
 }
 
@@ -60,12 +74,20 @@
     @include text-caption;
     color: var(--color-text);
     margin-bottom: 5px;
+
+    @include media-phone{
+        padding-left: 70px;
+    }
 }
 
 .team__title-profession{
     font-size: 1.6rem;
     line-height: 1.37;
     color: var(--color-text) ;
+
+    @include media-phone{
+        padding-left: 70px;
+    }
 }
 
 
