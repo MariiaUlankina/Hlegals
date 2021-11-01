@@ -596,6 +596,9 @@ html {
   font-display: swap;
   src: url("TTNorms-Bold.woff2") format("woff2"); }
 
+.cases {
+  padding-top: 40px; }
+
 .cases__container {
   display: grid;
   grid-template: 57px 198px 198px / 320px 113px 340px 114px 433px;
@@ -1338,3 +1341,16 @@ html {
   @media (max-width: 767px) {
     .adress__link::before {
       visibility: hidden; } }
+
+.header__services {
+  color: white;
+  padding-bottom: 73px; }
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.logo__name {
+  font-size: 3.8rem;
+  line-height: 1.18; }
