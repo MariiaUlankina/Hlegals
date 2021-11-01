@@ -839,6 +839,9 @@ html {
   justify-items: center;
   align-items: center; }
 
+.cards__image {
+  width: 50%; }
+
 .quality {
   padding-top: 80px;
   padding-bottom: 80px; }
